@@ -58,7 +58,7 @@ echo --   SOUND>> ..\SharedMedia_Prismatic\Prismatic.lua
 echo -- ----->> ..\SharedMedia_Prismatic\Prismatic.lua
 for %%F in (..\SharedMedia_Prismatic\sound\*.*) do (
 echo       %%~nF
-echo LSM:Register("sound", "%%~nF", [[Interface\Addons\SharedMedia_Prismatic\sound\%%~nxF]]^) >> ..\SharedMedia_Prismatic\Prismatic.lua
+echo LSM:Register("sound", "|cFF0000FF%%~nF|r", [[Interface\Addons\SharedMedia_Prismatic\sound\%%~nxF]]^) >> ..\SharedMedia_Prismatic\Prismatic.lua
 )
 
 echo    STATUSBAR
